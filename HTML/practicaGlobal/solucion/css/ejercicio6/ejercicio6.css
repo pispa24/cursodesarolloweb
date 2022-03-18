@@ -1,0 +1,15 @@
+input[type="checkbox"]:checked{
+  accent-color: #1C7570;
+
+}
+:focus{
+  background-color: purple;
+}
+:disabled{
+  background-color:#000;
+}
+:hover{
+  background-color:darkred;
+  font-family: arial;
+  text-decoration: underline;
+}

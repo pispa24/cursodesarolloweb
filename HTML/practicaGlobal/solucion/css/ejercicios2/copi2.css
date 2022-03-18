@@ -1,0 +1,45 @@
+h1{
+  text-align: center;
+ font-family: sans-serif;
+ color: #FF5733;
+}
+main{
+   font-family: verdana;
+ }
+h2{
+  border-bottom-style:solid;
+  border-bottom-width:0,05em;
+  border-bottom-color:5076AC;
+  }
+  p{
+    font-size: 12px
+  }
+#parrafo1{
+  border: 1px solid black;
+  padding:12px;
+}
+/*se puede utilizar las tres alternativas*/
+span{
+  color:blue;
+  text-decoration: underline;
+}
+b{
+  color:blue;
+}
+a{
+  color:blue;
+}
+.textrojo{
+  color:red;
+}
+.fondogrisoscuro{
+  background-color: #9e9e9e;
+}
+.fondogrisclaro{
+  background-color:#f1ecec;
+}
+/* regla que se aplica al selecionar el texto de parrafo*/
+p::selection{
+  background-color: green;
+  color:blue;
+}

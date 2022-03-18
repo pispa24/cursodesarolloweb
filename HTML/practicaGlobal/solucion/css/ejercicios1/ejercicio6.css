@@ -2,13 +2,13 @@ h1 {
 
  text-align:center;
  padding-bottom: 5px;
- border-bottom-width:1px;
- border-bottom-color:black;
+ border-bottom-width:1px
+ border-bottom-color:black
  border-bottom-style:dotted;
  width: 60%
 }
 section{
-  margin-bottom: 2em;
+  margin
 }
 p {
 

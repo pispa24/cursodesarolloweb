@@ -1,0 +1,24 @@
+a[href="https://www.google.es/"]{
+  color:#98A0A8;
+}
+
+a[href="https://www.radiogorbea.com/"]{
+  color:#087E3C;
+}
+a[href="https://www.mundodeportivo.com/"]{
+  color:#1A1351;
+}
+a[href="https://www.youtube.com/"]{
+  color:#642A3D;
+}
+a[href="https://www.sport.es/es/"]{
+  color:#766A4B;
+}
+a:hover{
+  border: 3px solid black;
+  background-color: #CB9316;
+}
+a:visited{
+  background-color: orange;
+  color:red;
+}

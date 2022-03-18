@@ -1,0 +1,52 @@
+*:hover{
+  cursor:progress;
+}
+
+input[type="text"] {
+  background-color: #0C2037;
+  width: 380px;
+  margin-bottom: 12px;
+}
+
+label[for="nombre"] {
+  color: #8C83AF;
+}
+
+input[for="email"] {
+  background-color: green;
+  width: 245px;
+  border-radius: 5px;
+}
+
+label[name="email"] {
+  color: #525850;
+  background-color: #2A5A12;
+}
+#poblacion{
+  color:yellow;
+  background-color: green;
+  width: 300px;
+  margin-bottom:10px;
+  border-radius: 5px;
+}
+input[type="checkbox"] {
+  height: 60px;
+  width: 60px;
+  background-color: pink;
+  margin-bottom: 20px;
+  border-radius: 5px;
+
+
+}
+
+a:hover{
+  color:orange;
+  font-size:50px;
+  cursor:not-allowed;
+}
+input:disabled{
+  background: #ccc;
+}
+input:required{
+  border:5px dashed red;
+}
