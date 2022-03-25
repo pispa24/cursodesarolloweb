@@ -1,0 +1,40 @@
+.container{
+  display: flex;
+  flex-direction: row;
+
+.containervertical{
+  background-color: lightblue;
+  width: 200px;
+  height: 250px;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+}
+.item{
+  height: inherit;
+  background-color: blue;
+  width: inherit;
+  border: 1px solid white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+
+
+.containerhorizontal{
+  background-color: #55967E;
+  width: 200px;
+  height: 250;
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+
+
+}
+.itemh{
+  background-color:blue;
+  width: auto;
+  height:88px;
+  border:1px solid white;

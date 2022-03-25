@@ -1,0 +1,43 @@
+
+
+
+ /* @font-face {
+   font-family: 'Roboto Mono';
+   src: url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap')format('woff');
+ } */
+
+ /* @font-face {
+   font-family: 'Inspiration';
+   src: url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap')format('woff');
+ } */
+
+ /* #seccion2{
+   font-family: 'Roboto Mono', monospace;
+ } */
+
+ /* @font-face {
+ font-family: 'Smokum Regular';
+   src: url('Smokum-Regular.ttf')format('ttf');
+ }
+ #seccion1 {
+   font-family: 'Smokum Regular',sans-serif;
+ } */
+
+
+ /*@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+ #seccion3{
+   font-family: 'Inspiration', cursive;
+ }/*
+
+ /* #seccion4 {
+   font-family: 'Open Sans',sans-serif;
+ } */
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Pacifico&display=swap')
+
+p{
+  font-family: 'Calligraffitti', cursive;
+}
+
+h1{
+  font-family: 'Pacifico', cursive;
+}
