@@ -1,0 +1,72 @@
+body {
+  display: grid;
+  grid-template-areas:
+  "header header header"
+  "nav main ads"
+  "footer footer footer";
+  grid-template-rows: 80px 1fr 70px;
+  grid-template-columns: 20% 1fr 15%;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  height: 100vh;
+  margin: 0;
+}
+header, footer, main, nav, div {
+  padding: 1.2em;
+  background: #969781;
+}
+#pageHeader {
+  grid-area: header;
+}
+#pageFooter {
+  grid-area: footer;
+}
+#mainSection {
+  grid-area: main;
+}
+#mainNav {
+  grid-area: nav;
+}
+#siteAds {
+  grid-area: ads;
+}
+#mainSection{
+  display: grid;
+  grid-template-area:
+  "tituloh2 "
+  "Noticias1 Noticias2"
+  "Noticias3 Noticias4";
+
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr  1fr;
+  margin-top: 1em;
+  text-align: center;
+}
+#tituloh2 {
+  grid-area: :tituloh2;
+}
+#Articlo1 {
+  grid-area: Noticias1;
+}
+#Articlo2 {
+  grid-area: Noticias2;
+}
+#Articlo3 {
+  grid-area: Noticias3;
+}
+#Articlo4 {
+  grid-area: Noticias4;
+}
+
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 575px) {
+  body {
+    grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "ads"
+    "footer";
+    grid-template-rows: 80px 70px 1fr 70px 70px;
+    grid-template-columns: 1fr;
+  }
