@@ -1,0 +1,29 @@
+body{
+
+  display: flex;
+  font-family: sans-serif;
+  padding:15px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.izquierda{
+  flex: 2;
+  padding:12px;
+  background:#B5927D;
+  color:white;
+}
+
+.Derecha{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #14DFDA;
+  color:white;
+}
+
+.fila{
+  flex: 1;
+  border: 1px solid black;
+  padding: 15px;
+}
