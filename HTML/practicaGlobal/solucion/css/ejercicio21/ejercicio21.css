@@ -32,8 +32,8 @@ header, footer, main, nav, div {
 }
 #mainSection{
   display: grid;
-  grid-template-area:
-  "tituloh2 "
+  grid-template-areas:
+  "tituloh2 tituloh2"
   "Noticias1 Noticias2"
   "Noticias3 Noticias4";
 
@@ -42,12 +42,15 @@ header, footer, main, nav, div {
   margin-top: 1em;
   text-align: center;
 }
+
 #tituloh2 {
-  grid-area: :tituloh2;
+  grid-area: tituloh2;
 }
+
 #Articlo1 {
   grid-area: Noticias1;
 }
+
 #Articlo2 {
   grid-area: Noticias2;
 }
