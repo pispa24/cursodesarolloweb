@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 3 JQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript">
+	$(document).ready(function() {
+		$("#boton01").click(function(event) {
+			$("p").remove();
+		});
+		$("#boton02").click(function(event) {
+			$("#boton02").remove();
+		});
+		$("#boton03").click(function(event) {
+			$(".boton03").remove();
+		});
+        $("#boton04").click(function(event) {
+			$("p").remove(".borrame");
+		});
+	});
+</script>
+  </head>
+  <body>
+    <p id="botton1">cuando toca desaparezco</p>
+
+  </body>
+</html>
