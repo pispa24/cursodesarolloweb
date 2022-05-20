@@ -233,8 +233,25 @@ section h2{
   height: 32px;
   font-weight: bold;
   background-color: purple;
-  border: 1px solid #0E822C;
+  border: 1px solid #CAC9C4 ;
 }
 .btn-secondary>a{
   color:#0E822C;
+}
+/* page about*/
+.sectionabout{
+  /*background-color: white;*/
+  margin: 2% 5%;
+}
+.divabout{
+  margin: 20px;
+}
+.imgabout{
+  float:right;
+}
+.pabout{
+  font-size: 18px;
+}
+.h2about{
+  color: #5EC8F6 ;
 }
